@@ -30,6 +30,7 @@ public class StepDefination extends base {
         Homepage hp =new Homepage( driver );
         hp.Searchbox().sendKeys("ov12uyy" );
         hp.Findvehicle().click();
+        System.out.println( "fgsfdbgsf" );
     }
 
     @Then("^My Car Registration Number is Displayed$")

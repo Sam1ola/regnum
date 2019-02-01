@@ -22,6 +22,7 @@ public class StepDefination extends base {
     public void i_initialize_the_browser_and_navigate_to_something_site(String strArg1) throws Throwable {
         driver =initializeDriver();
         driver.get( strArg1 );
+        System.out.println( "fgsfdbgsf" );
     }
 
     @When("^I enter the Car Registration number and click on Find Vehicle$")
